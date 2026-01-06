@@ -1,6 +1,6 @@
 context:
   name: parse-changelog
-  version: "0.6.14"
+  version: "0.6.15"
 
 package:
   name: ${{ name }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/taiki-e/parse-changelog/archive/refs/tags/v${{ version }}.zip
-  sha256: a50f4637a302d9f39bcea347fa60250783451e2bb7280f2a607c338be7b0a455
+  sha256: 5d76c0baf4f11b7b20d6f3b30a28eb982628a8b6b9301361ddadc17f678a047b
 
 build:
   number: 0
